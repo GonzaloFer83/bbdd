@@ -44,6 +44,6 @@ public class Trip {
 	
 	@Override
 	public String toString() {
-		return "Trip [id=" + id + ", car=" + car.getId() + ", persona=" + persona.getId() + ", Date=" + Date + "]";
+		return "Trip [id=" + id + ", car=" + car.toString() + ", persona=" + persona.toString() + ", Date=" + Date + "]";
 	}
 }

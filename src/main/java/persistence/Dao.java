@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class Dao {
 	String url = "jdbc:mysql://localhost:3306/bbdd?useSSL=false";
 	String usuario = "root";
-	String password = "Ferparras83";
+	String password = "";
 	protected Connection conexion;
 
 	public boolean abrirConexion() {
